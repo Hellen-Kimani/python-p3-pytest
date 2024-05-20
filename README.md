@@ -76,7 +76,7 @@ This tells us that in the most recent block of code (the assertion), there was
 an error on the first line. As this is an assertion, the error is easy enough
 to parse out: `interpolate_welcome()` doesn't interpolate the name we pass in!
 
-Let's use that assertion to drive the development of some working code:
+Let's use that assertion to drive the development of some working code:def
 
 ```console
 >>> def interpolate_welcome(name):
